@@ -1,0 +1,13 @@
+com/rmsl/juce/Java.java
+ com.rmsl.juce.Java
+com/acme/activity2.java
+ com.acme.activity2
+ com.acme.activity2$1
+ com.acme.activity2$2
+ com.acme.activity2$3
+com/rmsl/juce/JuceApp.java
+ com.rmsl.juce.JuceApp
+com/acme/NativeAndroidJuceActivity.java
+ com.acme.NativeAndroidJuceActivity
+com/acme/NativeAndroidJuceSample/BuildConfig.java
+ com.acme.NativeAndroidJuceSample.BuildConfig

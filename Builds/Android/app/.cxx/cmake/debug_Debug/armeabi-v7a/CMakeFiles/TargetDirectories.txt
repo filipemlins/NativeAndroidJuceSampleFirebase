@@ -1,0 +1,15 @@
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/list_install_components.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/cpufeatures.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/juce_jni.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/install/local.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/install.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/CMakeFiles/install/strip.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/oboe.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/install/local.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/install.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/edit_cache.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/rebuild_cache.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/list_install_components.dir
+C:/JUCE-dev/examples/NativeAndroidJuceSample/Builds/Android/app/.cxx/cmake/debug_Debug/armeabi-v7a/oboe/CMakeFiles/install/strip.dir

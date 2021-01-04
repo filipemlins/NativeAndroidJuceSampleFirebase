@@ -1,0 +1,254 @@
+{
+  "abi": "X86",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86",
+    "cmakeServerLogFile": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cxx\\debug_Debug\\x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86",
+      "cmakeToolchain": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\prefab\\x86\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build\\intermediates\\cmake\\debug_Debug\\obj\\x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_static"
+        },
+        {
+          "name": "ANDROID_CPP_FEATURES",
+          "value": "exceptions rtti"
+        },
+        {
+          "name": "ANDROID_ARM_MODE",
+          "value": "arm"
+        },
+        {
+          "name": "ANDROID_ARM_NEON",
+          "value": "TRUE"
+        },
+        {
+          "name": "CMAKE_CXX_STANDARD",
+          "value": "14"
+        },
+        {
+          "name": "CMAKE_CXX_EXTENSIONS",
+          "value": "OFF"
+        },
+        {
+          "name": "JUCE_BUILD_CONFIGURATION",
+          "value": "DEBUG"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS_DEBUG",
+          "value": "-O0"
+        },
+        {
+          "name": "CMAKE_C_FLAGS_DEBUG",
+          "value": "-O0"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\x86",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_PLATFORM\u003dandroid-23",
+      "-DANDROID_STL\u003dc++_static",
+      "-DANDROID_CPP_FEATURES\u003dexceptions rtti",
+      "-DANDROID_ARM_MODE\u003darm",
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DCMAKE_CXX_STANDARD\u003d14",
+      "-DCMAKE_CXX_EXTENSIONS\u003dOFF",
+      "-DJUCE_BUILD_CONFIGURATION\u003dDEBUG",
+      "-DCMAKE_CXX_FLAGS_DEBUG\u003d-O0",
+      "-DCMAKE_C_FLAGS_DEBUG\u003d-O0"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build\\intermediates",
+      "makeFile": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build.gradle",
+      "moduleRootFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.1.6352462",
+      "project": {
+        "compilerSettingsCacheFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\.cxx",
+        "cxxFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\.cxx",
+        "ideBuildTargetAbi": "x86,armeabi-v7a,armeabi",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android",
+        "sdkFolder": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\fmlin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build\\intermediates\\cmake\\debug_Debug\\obj",
+    "variantName": "debug_Debug",
+    "validAbiList": [
+      "X86"
+    ],
+    "prefabDirectory": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\.cxx\\cmake\\debug_Debug\\prefab\\x86"
+}

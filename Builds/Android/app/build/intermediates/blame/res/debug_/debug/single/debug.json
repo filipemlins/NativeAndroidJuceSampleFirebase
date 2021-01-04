@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build\\intermediates\\res\\merged\\debug_\\debug\\layout_activity2.xml.flat",
+        "source": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Source\\res\\layout\\activity2.xml"
+    },
+    {
+        "merged": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Builds\\Android\\app\\build\\intermediates\\res\\merged\\debug_\\debug\\layout_mainlayout.xml.flat",
+        "source": "C:\\JUCE-dev\\examples\\NativeAndroidJuceSample\\Source\\res\\layout\\mainlayout.xml"
+    }
+]
