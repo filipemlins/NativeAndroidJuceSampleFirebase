@@ -74,13 +74,13 @@ public class activity2 extends Activity implements View.OnClickListener {
     private void updateUI(@Nullable FirebaseUser account) {
         if (account != null) {
           //  mStatusTextView.setText(getString(R.string.signed_in_fmt, account.getDisplayName()));
-
+            System.out.println("SIGNED IN");
             findViewById(R.id.sign_in_button).setVisibility(View.INVISIBLE);
-            findViewById(R.id.button_disconnect).setVisibility(View.VISIBLE);
             findViewById(R.id.button_sign_out).setVisibility(View.VISIBLE);
+            findViewById(R.id.button_disconnect).setVisibility(View.VISIBLE);
         } else {
           //  mStatusTextView.setText(R.string.signed_out);
-
+            System.out.println("SIGNED OUT OR REVOKED");
             findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
             findViewById(R.id.button_disconnect).setVisibility(View.INVISIBLE);
             findViewById(R.id.button_sign_out).setVisibility(View.INVISIBLE);

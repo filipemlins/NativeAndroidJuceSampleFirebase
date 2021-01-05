@@ -1,0 +1,7 @@
+Executable : C:\Users\fmlin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\JUCE-dev\examples\NativeAndroidJuceSample\Builds\Android\app\.cxx\cmake\release_Release\x86_64
+juce_jni
+jvmArgs : 
+
