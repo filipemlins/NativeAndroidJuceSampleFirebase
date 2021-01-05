@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import com.acme.NativeAndroidJuceSample.R;
@@ -19,11 +20,15 @@ public class NativeAndroidJuceActivity extends Activity
         // call the native C++ class contsructor
         constructNativeClass();
 
-    }
-
-    public void login(View view) {
-        Intent intent = new Intent(this, activity2.class);
-        startActivity(intent);
+        Button buttonOne = findViewById(R.id.buttonOne);
+        buttonOne.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+                Intent activity2Intent = new Intent(getApplicationContext(), activity2.class);
+                startActivity(activity2Intent);
+            }
+        });
+        
     }
 
     @Override
@@ -37,16 +42,13 @@ public class NativeAndroidJuceActivity extends Activity
     // called by NativeAndroidJuceActivity.cpp
     public void addToLog(String message)
     {
-        //EditText editText = (EditText) findViewById(R.id.juceOutput);
+        EditText editText = (EditText) findViewById(R.id.juceOutput);
 
-        //editText.setText(message + "\n" + editText.getText());
-
-        //Intent intent = new Intent(this, activity2.class);
-        //startActivity(intent);
-
+        editText.setText(message + "\n" + editText.getText());
     }
 
     // called by mainlayout.xml and implemented in NativeAndroidJuceActivity.cpp
+    public native void timerButtonClicked(View sender);
 
     public void addJuceComponentButtonClicked(View sender)
     {
