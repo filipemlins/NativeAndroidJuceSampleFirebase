@@ -45,6 +45,7 @@ public class NativeAndroidJuceActivity extends Activity
         EditText editText = (EditText) findViewById(R.id.juceOutput);
 
         editText.setText(message + "\n" + editText.getText());
+
     }
 
     // called by mainlayout.xml and implemented in NativeAndroidJuceActivity.cpp
@@ -53,6 +54,13 @@ public class NativeAndroidJuceActivity extends Activity
     public void addJuceComponentButtonClicked(View sender)
     {
         addRemoveJuceComponent(findViewById(R.id.juceStage));
+
+    }
+
+    public void loginView(){
+        System.out.println("FUNCTION CALLED");
+        Intent activity2Intent = new Intent(getApplicationContext(), activity2.class);
+        startActivity(activity2Intent);
     }
 
     //==============================================================================

@@ -24,7 +24,7 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 
 // the C++ counterpart class to the java class with the same name
-class NativeAndroidJuceActivity  : private Timer
+class NativeAndroidJuceActivity  : private Timer,  public juce::Button::Listener
 {
 public:
     //constructor
@@ -37,6 +37,8 @@ public:
                            reinterpret_cast<jlong> (this));
 
         juceComponent.setVisible (true);
+        juceComponent.addListener(this);
+
 
         // initialise the JUCE message manager!
         MessageManager::getInstance();
@@ -55,6 +57,7 @@ public:
         }
 
         env->DeleteWeakGlobalRef(javaCounterpartInstance);
+        juceComponent.removeListener (this);
     }
 
     void timerButtonClicked (jobject /*senderView*/)
@@ -64,6 +67,8 @@ public:
         else
             startTimer(1000);
     }
+
+
 
     void addRemoveJuceComponent (jobject containerView)
     {
@@ -87,14 +92,28 @@ private:
         }
     }
 
+    void buttonClicked(juce::Button* button) override  // [2]
+    {
+        auto* env = getEnv();
+
+        LocalRef<jobject> javaThis (env->NewLocalRef (javaCounterpartInstance));
+
+        if (javaThis != nullptr)
+        {
+            env->CallVoidMethod (javaThis.get(), NativeAndroidJuceActivityJavaClass.loginView);
+        }
+    }
+
     //==============================================================================
     #define JNI_CLASS_MEMBERS(METHOD, STATICMETHOD, FIELD, STATICFIELD, CALLBACK) \
      METHOD   (addToLog,                  "addToLog",               "(Ljava/lang/String;)V") \
+     METHOD (loginView,     "loginView",     "()V") \
      FIELD    (cppCounterpartInstance,    "cppCounterpartInstance", "J") \
      CALLBACK (constructNativeClassJni,   "constructNativeClass",   "()V") \
      CALLBACK (destroyNativeClassJni,     "destroyNativeClass",     "()V") \
      CALLBACK (timerButtonClickedJni,     "timerButtonClicked",     "(Landroid/view/View;)V") \
-     CALLBACK (addRemoveJuceComponentJni, "addRemoveJuceComponent", "(Landroid/view/View;)V") 
+     CALLBACK (addRemoveJuceComponentJni, "addRemoveJuceComponent", "(Landroid/view/View;)V") \
+
 
     DECLARE_JNI_CLASS (NativeAndroidJuceActivityJavaClass, "com/acme/NativeAndroidJuceActivity")
     #undef JNI_CLASS_MEMBERS
@@ -119,6 +138,7 @@ private:
             myself->timerButtonClicked (sender);
     }
 
+
     static void JNIEXPORT addRemoveJuceComponentJni (JNIEnv* env, jobject javaInstance,
                                                      jobject viewContainer)
     {
@@ -136,7 +156,10 @@ private:
     //==============================================================================
     jweak javaCounterpartInstance = nullptr;
     int counter = 0;
-    Slider juceComponent {Slider::Rotary, Slider::NoTextBox};
+    TextButton juceComponent {"LOGIN JUCE"};
+
+
+
 };
 
 NativeAndroidJuceActivity::NativeAndroidJuceActivityJavaClass_Class NativeAndroidJuceActivity::NativeAndroidJuceActivityJavaClass;

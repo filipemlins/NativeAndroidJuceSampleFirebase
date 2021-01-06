@@ -7,8 +7,8 @@ com/acme/activity2.java
  com.acme.activity2$3
 com/rmsl/juce/JuceApp.java
  com.rmsl.juce.JuceApp
+com/acme/NativeAndroidJuceSample/BuildConfig.java
+ com.acme.NativeAndroidJuceSample.BuildConfig
 com/acme/NativeAndroidJuceActivity.java
  com.acme.NativeAndroidJuceActivity
  com.acme.NativeAndroidJuceActivity$1
-com/acme/NativeAndroidJuceSample/BuildConfig.java
- com.acme.NativeAndroidJuceSample.BuildConfig

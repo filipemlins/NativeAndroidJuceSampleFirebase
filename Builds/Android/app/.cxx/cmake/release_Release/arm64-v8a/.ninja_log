@@ -63,3 +63,5 @@
 18	36082	631579106	CMakeFiles/juce_jni.dir/C_/JUCE-dev/examples/NativeAndroidJuceSample/JuceLibraryCode/include_juce_core.cpp.o	97be894d3bf1001e
 20	46992	631579117	CMakeFiles/juce_jni.dir/C_/JUCE-dev/examples/NativeAndroidJuceSample/JuceLibraryCode/include_juce_gui_basics.cpp.o	df7b170d1b9a3fec
 46993	48345	631579119	../../../../build/intermediates/cmake/release_Release/obj/arm64-v8a/libjuce_jni.so	51aba1533991bbe8
+0	34	0	clean	60f1a9e1334f337f
+1	11	0	clean	60f1a9e1334f337f

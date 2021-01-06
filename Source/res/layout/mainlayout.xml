@@ -33,14 +33,15 @@
 	    app:layout_constraintTop_toBottomOf="@+id/juceComponentButton"
 	     />
 
-    <LinearLayout
-        android:id="@+id/juceStage"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOne"
-        tools:layout_editor_absoluteX="0dp"></LinearLayout>
+	<LinearLayout
+		android:id="@+id/juceStage"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:layout_weight="1"
+		android:onClick="loginView"
+		android:orientation="vertical"
+		app:layout_constraintTop_toBottomOf="@+id/buttonOne"
+		tools:layout_editor_absoluteX="0dp" />
 
     <EditText
         android:id="@+id/juceOutput"

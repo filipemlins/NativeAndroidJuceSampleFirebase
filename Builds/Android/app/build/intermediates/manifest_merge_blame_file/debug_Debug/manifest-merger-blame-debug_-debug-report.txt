@@ -422,27 +422,27 @@
 223-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 224        </service>
 225
-226        <provider
-226-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-227            android:name="com.google.firebase.provider.FirebaseInitProvider"
-227-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-228            android:authorities="com.acme.nativeandroidjucesample.firebaseinitprovider"
-228-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-229            android:directBootAware="true"
-229-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-230            android:exported="false"
-230-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-231            android:initOrder="100" />
-231-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-232
-233        <activity
-233-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-234            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-234-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+226        <activity
+226-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+227            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+227-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+228            android:exported="false"
+228-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+229            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+229-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\1b0fb2d61dd1f419c43e80d7a95a988a\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+230
+231        <provider
+231-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+232            android:name="com.google.firebase.provider.FirebaseInitProvider"
+232-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+233            android:authorities="com.acme.nativeandroidjucesample.firebaseinitprovider"
+233-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+234            android:directBootAware="true"
+234-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 235            android:exported="false"
-235-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-236            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-236-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+235-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+236            android:initOrder="100" />
+236-->[com.google.firebase:firebase-common:19.5.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d783eb5e4d25e462c5ff8a9ddfc544e8\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
 237
 238        <receiver
 238-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\fmlin\.gradle\caches\transforms-2\files-2.1\d535ddb9b282b7dfd1ae98643f85d9b9\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
